@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name ="AppTheme" parent= "Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="Theme.Medica" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+</resources>
