@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hotel</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="prefs_file">com.jean.hotel.PREFERENCE_FILE_KEY</string>
+</resources>
