@@ -15,23 +15,54 @@ import com.google.android.gms.common.api.ApiException
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
+import android.widget.TextView
+import android.widget.Toast
 
 class AuthActivity : AppCompatActivity() {
     private val GOOGLE_SIGN_IN= 100
+    private lateinit var auth: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_auth)
+
+        auth = FirebaseAuth.getInstance()
+
+        val forgotPasswordText = findViewById<TextView>(R.id.forgotPasswordText)
+        val emailEditText = findViewById<EditText>(R.id.emailEditText)
         val analytics: FirebaseAnalytics = FirebaseAnalytics.getInstance(this)
         val bundle = Bundle()
         bundle.putString("message", "Integracion de base de datos")
         analytics.logEvent("InitScreen",bundle)
+
+        // Configura el enlace de recuperación de contraseña
+        forgotPasswordText.setOnClickListener {
+            val email = emailEditText.text.toString().trim()
+            if (email.isNotEmpty()) {
+                sendPasswordResetEmail(email)
+            } else {
+                Toast.makeText(this, "Por favor, ingresa tu correo electrónico", Toast.LENGTH_SHORT).show()
+            }
+        }
 
 
         //setup
         setup()
         session()
     }
+
+    private fun sendPasswordResetEmail(email: String) {
+        auth.sendPasswordResetEmail(email)
+            .addOnCompleteListener { task ->
+                if (task.isSuccessful) {
+                    Toast.makeText(this, "Correo de recuperación enviado a $email", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(this, "Error al enviar el correo de recuperación", Toast.LENGTH_SHORT).show()
+                }
+            }
+    }
+
     override fun onStart() {
         val authLayaout = findViewById<LinearLayout>(R.id.authLayout)
         super.onStart()
@@ -127,10 +158,5 @@ class AuthActivity : AppCompatActivity() {
             }
         }
     }
-
-
-
-
-
 
 }

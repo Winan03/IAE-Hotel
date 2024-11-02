@@ -16,13 +16,15 @@
             android:id="@+id/emailtextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textColor="@android:color/white" />
 
         <TextView
             android:id="@+id/providertextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/logOutButton"
