@@ -99,20 +99,6 @@
             android:padding="10dp"
             android:hint="Ingresa contraseña"/>
 
-        <TextView
-            android:id="@+id/forgotPasswordText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="¿Olvidaste tu contraseña?"
-            android:textColor="@color/white"
-            android:textSize="14sp"
-            android:gravity="center"
-            app:layout_constraintTop_toBottomOf="@id/passwordEditText"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -128,8 +114,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/roundedbutton"
                 android:text="Registrar"
-                android:textColor="@android:color/white"
-                app:backgroundTint="@color/marino"/>
+                android:textColor="@android:color/white" />
 
             <Button
                 android:id="@+id/loginButton"
@@ -139,8 +124,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/roundedbutton"
                 android:text="ACCEDER"
-                android:textColor="@android:color/white"
-                app:backgroundTint="@color/marino"/>
+                android:textColor="@android:color/white" />
 
         </LinearLayout>
 

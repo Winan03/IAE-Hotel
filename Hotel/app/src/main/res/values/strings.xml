@@ -4,7 +4,4 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="prefs_file">com.jean.hotel.PREFERENCE_FILE_KEY</string>
-
-    <string name="price">Precio</string>
-    <string name="reserved">Reservado</string>
 </resources>
