@@ -1,8 +1,28 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
-    <style name="Theme.Hospital" parent="Theme.AppCompat.Light.NoActionBar" />
+    <!-- Base application themes -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Define attributes for AppTheme if needed -->
+    </style>
+
+    <style name="Theme.Hospital" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize the NoActionBar theme if necessary -->
+    </style>
+
     <style name="SplashTheme" parent="AppTheme">
         <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+
+    <!-- New Themes from Project Practice -->
+    <style name="Base.Theme.ProjectPractice" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize light theme attributes here -->
+    </style>
+
+    <style name="Theme.ProjectPractice" parent="Base.Theme.ProjectPractice">
+        <!-- Customize additional attributes for Theme.ProjectPractice if necessary -->
+    </style>
+
+    <!-- Dark Theme Version for Project Practice -->
+    <style name="Base.Theme.ProjectPractice.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize dark theme attributes here -->
     </style>
 </resources>

@@ -128,7 +128,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/roundedbutton"
                 android:text="Registrar"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                app:backgroundTint="@color/marino"/>
 
             <Button
                 android:id="@+id/loginButton"
@@ -138,7 +139,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/roundedbutton"
                 android:text="ACCEDER"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                app:backgroundTint="@color/marino"/>
 
         </LinearLayout>
 
