@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package com.jean.hotel // Cambia el paquete aquí para adaptarlo a tu proyecto.
+=======
+package com.jean.hotel
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

@@ -42,7 +42,11 @@
             android:id="@+id/ivRoom"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+<<<<<<< HEAD
             tools:background="@color/black" />
+=======
+            tools:background="@color/black"/>
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 
         <com.google.android.material.card.MaterialCardView
             style="@style/MyCardRooms"

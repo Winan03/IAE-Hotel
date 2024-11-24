@@ -10,6 +10,7 @@
     <color name="primaryColor">#3F51B5</color>
     <color name="hotel">#1F1F1F</color>
     <color name="bgRes">#CC2C7AC1</color>
+<<<<<<< HEAD
     <color name="blueDark">#25336D</color>
     <color name="grisMedio">#A6A6A6</color>
     <color name="grisClato">#BDBDBD</color>
@@ -32,12 +33,17 @@
 
     <color name="background_app">#1E1E1E</color>
     <color name="text_primary">#FFFFFF</color> <!-- Blanco para fondos oscuros -->
+=======
+
+    <color name="background_app">#1E1E1E</color>
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
     <color name="background_blue">#4054A4</color>
     <color name="background_blue_letter">#25336D</color>
     <color name="background_menu">#474545</color>
     <color name="text_color_cards">#020202</color>
 
     <color name="btnInactive">#898989</color>
+<<<<<<< HEAD
 
     <color name="button_primary">#6200EE</color> <!-- Un morado brillante para el botón principal -->
     <color name="button_secondary">#03DAC5</color> <!-- Un verde azulado para el botón secundario -->
@@ -47,4 +53,6 @@
 
 
 
+=======
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 </resources>

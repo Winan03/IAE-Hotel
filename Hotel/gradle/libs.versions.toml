@@ -18,7 +18,10 @@ activityCompose = "1.9.2"
 composeBom = "2023.08.00"
 fragmentKtx = "1.5.6"
 roomKtx = "2.6.1"
+<<<<<<< HEAD
 securityCryptoKtx = "1.0.0"
+=======
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -46,7 +49,10 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentKtx" }
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+<<<<<<< HEAD
 androidx-security-crypto-ktx = { group = "androidx.security", name = "security-crypto-ktx", version.ref = "securityCryptoKtx" }
+=======
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

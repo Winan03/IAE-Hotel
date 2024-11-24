@@ -48,5 +48,8 @@
         <item name="cornerSizeBottomRight">0dp</item>
         <item name="cornerSizeBottomLeft">0dp</item>
     </style>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 </resources>

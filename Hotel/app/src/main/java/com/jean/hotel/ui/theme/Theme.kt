@@ -1,6 +1,9 @@
 package com.jean.hotel.ui.theme
 
+<<<<<<< HEAD
 import android.app.Activity
+=======
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

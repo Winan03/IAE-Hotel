@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <!-- App General -->
     <string name="app_name">Hotel</string>
     <string name="action_settings">Configuración</string>
@@ -75,3 +76,14 @@
     <string name="btn_retry">Reintentar</string>
 </resources>
 
+=======
+    <string name="app_name">Hotel</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="prefs_file">com.jean.hotel.PREFERENCE_FILE_KEY</string>
+
+    <string name="price">Precio</string>
+    <string name="reserved">Reservado</string>
+</resources>
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe

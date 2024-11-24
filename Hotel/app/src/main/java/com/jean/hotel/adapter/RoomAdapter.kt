@@ -1,13 +1,21 @@
 package com.jean.hotel
 
+<<<<<<< HEAD
 import android.content.Intent
+=======
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 class RoomAdapter(
+<<<<<<< HEAD
     private val rooms: List<Room>,
     private val onRoomClick: (Room) -> Unit // Callback para manejar clics
+=======
+    private val roomList: List<Room>,
+    private val clickListener: (Room) -> Unit
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 ) : RecyclerView.Adapter<RoomViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RoomViewHolder {
@@ -16,6 +24,7 @@ class RoomAdapter(
     }
 
     override fun onBindViewHolder(holder: RoomViewHolder, position: Int) {
+<<<<<<< HEAD
         val room = rooms[position]
         holder.render(room, holder.itemView.context)
 
@@ -36,10 +45,21 @@ class RoomAdapter(
                 intent.putExtra("roomId", room.id)
                 intent.putExtra("roomPhoto", room.photo) // URL de la foto
                 context.startActivity(intent)
+=======
+        val item = roomList[position]
+        holder.render(item, holder.itemView.context)
+        holder.itemView.setOnClickListener {
+            if (!item.reserved) {
+                clickListener(item) // Llama al listener para manejar la reserva
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
             }
         }
     }
 
+<<<<<<< HEAD
 
     override fun getItemCount(): Int = rooms.size
+=======
+    override fun getItemCount(): Int = roomList.size
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 }

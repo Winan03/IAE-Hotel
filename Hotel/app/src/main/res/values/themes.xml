@@ -1,11 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application themes -->
+<<<<<<< HEAD
 
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Define attributes for AppTheme if needed -->
     </style>
 
 
+=======
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Define attributes for AppTheme if needed -->
+    </style>
+
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
     <style name="Theme.Hospital" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize the NoActionBar theme if necessary -->
     </style>
@@ -27,6 +34,7 @@
     <style name="Base.Theme.ProjectPractice.Dark" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize dark theme attributes here -->
     </style>
+<<<<<<< HEAD
 
 
 
@@ -34,3 +42,6 @@
 
 
 
+=======
+</resources>
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe

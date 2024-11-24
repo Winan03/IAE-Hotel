@@ -5,7 +5,11 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".ActivityHome"
+=======
+    tools:context=".Activity_home"
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
     android:background="#1F1F1F">
 
     <!-- Header con email, proveedor y botón de cierre de sesión -->
@@ -20,7 +24,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+<<<<<<< HEAD
             android:textSize="30sp"
+=======
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
             android:textColor="@android:color/white" />
 
         <TextView
@@ -28,7 +35,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+<<<<<<< HEAD
             android:textSize="30sp"
+=======
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
             android:textColor="@android:color/white" />
 
         <Button

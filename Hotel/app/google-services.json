@@ -2,7 +2,11 @@
   "project_info": {
     "project_number": "418195441090",
     "project_id": "hotel-2803a",
+<<<<<<< HEAD
     "storage_bucket": "hotel-2803a.firebasestorage.app"
+=======
+    "storage_bucket": "hotel-2803a.appspot.com"
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
   },
   "client": [
     {
@@ -12,6 +16,7 @@
           "package_name": "com.jean.hotel"
         }
       },
+<<<<<<< HEAD
       "oauth_client": [
         {
           "client_id": "418195441090-3gqomoc7litdh46iiate1ebr5m9bunu7.apps.googleusercontent.com",
@@ -34,6 +39,9 @@
           "client_type": 3
         }
       ],
+=======
+      "oauth_client": [],
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
       "api_key": [
         {
           "current_key": "AIzaSyCd2KpDvxTP8_lkpZHA6b1lzU53mL1ozK0"
@@ -41,12 +49,16 @@
       ],
       "services": {
         "appinvite_service": {
+<<<<<<< HEAD
           "other_platform_oauth_client": [
             {
               "client_id": "418195441090-8sjsfd0gof0rkar8k6olomu7nu76d74v.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
+=======
+          "other_platform_oauth_client": []
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
         }
       }
     }

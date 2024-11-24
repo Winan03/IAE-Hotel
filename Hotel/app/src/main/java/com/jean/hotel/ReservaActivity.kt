@@ -9,11 +9,19 @@ import androidx.appcompat.app.AppCompatActivity
 class ReservaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+<<<<<<< HEAD
         setContentView(R.layout.activity_resumen)
 
         val roomId = intent.getIntExtra("roomId", -1)
 
         val confirmButton = findViewById<Button>(R.id.btn_confirmar_reserva)
+=======
+        setContentView(R.layout.activity_reserva)
+
+        val roomId = intent.getIntExtra("roomId", -1)
+
+        val confirmButton = findViewById<Button>(R.id.confirm_button)
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
         confirmButton.setOnClickListener {
             // Simular una solicitud de reserva
             reservarHabitacion(roomId)

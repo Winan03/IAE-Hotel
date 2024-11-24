@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+<<<<<<< HEAD
 
     <!-- Permisos necesarios -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -8,6 +9,9 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
+=======
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -18,18 +22,29 @@
         android:supportsRtl="true"
         tools:targetApi="31"
         android:theme="@style/Theme.Hospital">
+<<<<<<< HEAD
 
         <!-- Actividad de autenticación (Inicio del flujo) -->
+=======
+        <activity
+            android:name=".Activity_home"
+            android:exported="false" />
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
         <activity
             android:name=".AuthActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+<<<<<<< HEAD
         <!-- Flujo de reserva -->
         <activity
             android:name=".FormularioReservaActivity"
@@ -57,3 +72,9 @@
             android:exported="false" />
     </application>
 </manifest>
+=======
+        <activity android:name=".ReservaActivity" />
+    </application>
+
+</manifest>
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe

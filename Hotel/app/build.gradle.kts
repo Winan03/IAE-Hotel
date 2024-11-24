@@ -76,14 +76,20 @@ dependencies {
     implementation(libs.androidx.room.ktx)
     implementation(libs.material)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
     // Dependencias de Firebase
     implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.android.gms:play-services-auth:20.7.0")
     implementation ("com.google.firebase:firebase-firestore-ktx")
+<<<<<<< HEAD
     implementation ("com.google.firebase:firebase-firestore:24.7.1")
+=======
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
 
     // Dependencias de Retrofit para manejar peticiones HTTP
     implementation("com.squareup.okhttp3:okhttp:4.6.0")
@@ -93,6 +99,7 @@ dependencies {
 
     // Dependencias de Glide para manejo de imágenes
     implementation("com.github.bumptech.glide:glide:4.11.0")
+<<<<<<< HEAD
     implementation("androidx.security:security-crypto-ktx:1.1.0-alpha05")
     findKaptConfiguration("com.github.bumptech.glide:compiler:4.11.0")
 
@@ -104,6 +111,10 @@ dependencies {
     annotationProcessor ("com.github.bumptech.glide:compiler:4.15.1")
 
 
+=======
+    findKaptConfiguration("com.github.bumptech.glide:compiler:4.11.0")
+
+>>>>>>> 66ee247a4c2ba502c1bde67230779dfb463abbfe
     // Dependencias de pruebas
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
