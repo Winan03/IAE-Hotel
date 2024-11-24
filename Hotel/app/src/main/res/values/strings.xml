@@ -1,0 +1,77 @@
+<resources>
+    <!-- App General -->
+    <string name="app_name">Hotel</string>
+    <string name="action_settings">Configuración</string>
+    <string name="prefs_file">com.jean.hotel.PREFERENCE_FILE_KEY</string>
+
+    <!-- General UI labels -->
+    <string name="price">Precio</string>
+    <string name="reserved">Reservado</string>
+    <string name="room_image_desc">Imagen de la habitación</string>
+
+    <!-- Authentication -->
+    <string name="default_web_client_id">418195441090-3gqomoc7litdh46iiate1ebr5m9bunu7.apps.googleusercontent.com</string>
+    <string name="google_sign_in_error">Error al iniciar sesión con Google.</string>
+    <string name="google_sign_in_failed">Error al autenticar con Google. Inténtalo nuevamente.</string>
+    <string name="google_sign_in_error_message">Hubo un problema con el inicio de sesión. Detalles: %1$s</string>
+    <string name="error_invalid_email">Correo inválido. Verifica el formato ingresado.</string>
+    <string name="error_email_in_use">Este correo ya está registrado. Intenta iniciar sesión.</string>
+    <string name="error_wrong_password">Contraseña incorrecta. Inténtalo nuevamente.</string>
+    <string name="error_user_not_found">No se encontró una cuenta con este correo. Regístrate primero.</string>
+    <string name="error_unknown">Error desconocido. Inténtalo más tarde.</string>
+    <string name="invalid_email_format">Formato de correo no válido. Ejemplo: usuario@dominio.com</string>
+    <string name="invalid_password_format">La contraseña debe contener al menos 6 caracteres, incluyendo una letra y un número.</string>
+    <string name="password_reset_email_success">¡Correo de recuperación enviado a %1$s!</string>
+    <string name="password_reset_email_failed">No se pudo enviar el correo de recuperación. Verifica la dirección proporcionada.</string>
+    <string name="forgot_password_empty">Por favor, ingresa tu correo electrónico para restablecer tu contraseña.</string>
+
+    <!-- Icons -->
+    <string name="icon_warning">Icono de advertencia</string>
+    <string name="icon_success">Ícono de éxito</string>
+
+    <!-- Reservation Flow -->
+    <string name="error_invalid_reservation">Error: Datos de reserva no válidos</string>
+    <string name="reservation_user">Usuario: %1$s %2$s</string>
+    <string name="reservation_dni">DNI: %1$s</string>
+    <string name="reservation_price">Precio: S/%.2f</string>
+    <string name="reservation_duration">Duración: %1$s</string>
+    <string name="reservation_dates">Desde: %1$s\nHasta: %2$s</string>
+    <string name="reservation_confirmed">Reserva confirmada con éxito</string>
+    <string name="error_confirming_reservation">Error al confirmar la reserva</string>
+    <string name="room_reserved">Habitación Reservada</string>
+    <string name="reserved_until">Reservada hasta</string>
+    <string name="reservation_success">¡Habitación reservada exitosamente!</string>
+    <string name="reservation_error">No se pudo reservar la habitación.</string>
+
+    <!-- Resumen Activity -->
+    <string name="resumen_title">Resumen de la Reserva</string>
+    <string name="resumen_usuario">Usuario:</string>
+    <string name="resumen_dni">DNI:</string>
+    <string name="resumen_precio">Precio:</string>
+    <string name="resumen_duracion">Duración:</string>
+    <string name="resumen_fechas">Fechas:</string>
+    <string name="btn_confirmar_reserva">Confirmar Reserva</string>
+
+    <!-- Error Messages -->
+    <string name="error_loading_user_data">Error al cargar datos del usuario</string>
+    <string name="error_checking_user">Error al verificar el usuario en Firestore</string>
+    <string name="error_loading_rooms">Error al cargar las habitaciones</string>
+    <string name="error_checking_room">Error al verificar el estado de la habitación</string>
+    <string name="error_creating_user">Error al crear el usuario en Firestore</string>
+    <string name="error">Error</string>
+    <string name="error_auth">Error de autenticación</string>
+
+
+    <!-- General Success and Alerts -->
+    <string name="logout">Cerrar sesión</string>
+    <string name="success_notification">Operación realizada con éxito</string>
+    <string name="custom_alert_title">Alerta</string>
+    <string name="custom_alert_message">Algo salió mal. Inténtalo de nuevo.</string>
+
+    <!-- Buttons -->
+    <string name="btn_accept">Aceptar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_continue">Continuar</string>
+    <string name="btn_retry">Reintentar</string>
+</resources>
+

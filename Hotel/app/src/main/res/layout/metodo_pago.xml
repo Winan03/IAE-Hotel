@@ -1,0 +1,184 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_metallic_gray">
+
+    <!-- Título: Pagar con Tarjeta -->
+    <TextView
+        android:id="@+id/title_pagar_con_tarjeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:text="Pagar con Tarjeta"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/black" />
+
+    <!-- Tarjeta (Frente) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_front"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="12dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Imagen de fondo de la tarjeta frontal -->
+            <ImageView
+                android:id="@+id/card_front_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/card_front_background"
+                android:scaleType="centerCrop" />
+
+            <!-- Número de Tarjeta -->
+            <EditText
+                android:id="@+id/card_number_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="XXXX XXXX XXXX XXXX"
+                android:textColorHint="@color/white"
+                android:inputType="number"
+                android:maxLength="16"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@null" />
+
+            <!-- Nombre del Titular -->
+            <EditText
+                android:id="@+id/card_name_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="NOMBRE COMPLETO"
+                android:textColorHint="@color/white"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:background="@null" />
+
+            <!-- Fecha de Expiración -->
+            <EditText
+                android:id="@+id/card_expiry_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="MM/AA"
+                android:textColorHint="@color/white"
+                android:inputType="text"
+                android:maxLength="5"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:background="@null" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Tarjeta (Reverso) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_back"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="12dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Imagen de fondo de la tarjeta trasera -->
+            <ImageView
+                android:id="@+id/card_back_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/card_back_background"
+                android:scaleType="centerCrop" />
+
+            <!-- Banda negra en la parte superior -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/black"
+                android:layout_marginTop="24dp"
+                android:layout_alignParentTop="true" />
+
+            <!-- CVV -->
+            <EditText
+                android:id="@+id/card_cvv_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="CVV"
+                android:textColorHint="@color/white"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:background="@null" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Botón para voltear la tarjeta -->
+    <Button
+        android:id="@+id/flip_card_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltear"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="@color/teal_blue"
+        android:textColor="@color/white"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
+        android:textStyle="bold" />
+
+    <!-- Botón para confirmar la reserva -->
+    <Button
+        android:id="@+id/btn_reservar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservar"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/golden_metallic"
+        android:textColor="@color/white"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>
+
+
+
+
+
+
+
+
+

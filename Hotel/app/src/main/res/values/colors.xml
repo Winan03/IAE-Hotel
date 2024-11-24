@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="marino">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#3F51B5</color>
+    <color name="hotel">#1F1F1F</color>
+    <color name="bgRes">#CC2C7AC1</color>
+    <color name="blueDark">#25336D</color>
+    <color name="grisMedio">#A6A6A6</color>
+    <color name="grisClato">#BDBDBD</color>
+    <color name="verdeAzulado">#03DAC5</color>
+    <color name="grisAntracita">#232323</color>
+    <color name="dorado">#C9A227</color>
+    <!-- Color dorado metálico -->
+    <color name="golden_metallic">#D4AF37</color>
+
+    <!-- Verde azulado (similar al botón "Añadir imagen de perfil") -->
+    <color name="teal_blue">#20C8C8</color>
+
+    <!-- Fondo negro con texto dorado -->
+    <color name="button_black">#1F1F1F</color>
+    <color name="text_gold">#FFD700</color>
+
+    <!-- Gris oscuro metálico -->
+    <color name="dark_metallic_gray">#4B4B4B</color>
+    <color name="light_metallic_gray">#B8B8B8</color>
+
+    <color name="background_app">#1E1E1E</color>
+    <color name="text_primary">#FFFFFF</color> <!-- Blanco para fondos oscuros -->
+    <color name="background_blue">#4054A4</color>
+    <color name="background_blue_letter">#25336D</color>
+    <color name="background_menu">#474545</color>
+    <color name="text_color_cards">#020202</color>
+
+    <color name="btnInactive">#898989</color>
+
+    <color name="button_primary">#6200EE</color> <!-- Un morado brillante para el botón principal -->
+    <color name="button_secondary">#03DAC5</color> <!-- Un verde azulado para el botón secundario -->
+    <color name="successBackground">#4CAF50</color> <!-- Verde para el éxito -->
+
+    <color name="errorBackground">#D32F2F</color> <!-- Rojo para errores -->
+
+
+
+</resources>

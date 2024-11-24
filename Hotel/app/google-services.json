@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "418195441090",
+    "project_id": "hotel-2803a",
+    "storage_bucket": "hotel-2803a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418195441090:android:8e00176e6d4a5a84a9825b",
+        "android_client_info": {
+          "package_name": "com.jean.hotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418195441090-3gqomoc7litdh46iiate1ebr5m9bunu7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jean.hotel",
+            "certificate_hash": "96ddef827c2ae632621192f998f0254c22a82338"
+          }
+        },
+        {
+          "client_id": "418195441090-6tsut2o8lj6nbn1jnu4uj34v9j695fnb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jean.hotel",
+            "certificate_hash": "a08d81f1621830a0758750cc01a297badaebdcaf"
+          }
+        },
+        {
+          "client_id": "418195441090-8sjsfd0gof0rkar8k6olomu7nu76d74v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd2KpDvxTP8_lkpZHA6b1lzU53mL1ozK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418195441090-8sjsfd0gof0rkar8k6olomu7nu76d74v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
